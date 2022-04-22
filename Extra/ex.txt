@@ -1,0 +1,34 @@
+Protótipo = int inter_main(int	argc, char **argv);
+Funções autorizadas: write
+
+Escreva uma função que tenha duas cadeias de caracteres comoparâmetro e que mostre sem duplicações
+os caractere comuns às duas cadeias.
+
+A exibição deve ser feita seguindo a ordem em que os caractereaparecem na primeira cadeia.
+
+A exibição deve ser seguida de um '\n'.
+
+Se o número de parâmetros transmitidos for diferente de 2, a função exibe '\n'.
+
+A função irá receber como primeiro parâmetro (argc) a quantidade de elementos a serem enviados
+no segundo parâmetro (argv).
+
+Ex.:
+int	main(void)
+{
+	char *arg0[] = {"padinton", "paqefwtdjetyiytjneytjoeyjnejeyj"};
+	inter_main(2, arg0);
+	char *arg1[] = {"ddf6vewg64f", "gtwthgdwthdwfteewhrtag6h4ffdhsd"};
+	inter_main(2, arg1);
+	char *arg2[] = {"rien", "cette phrase ne cache rien"};
+	inter_main(2, arg2);
+	char *arg3[] = {};
+	inter_main(0, arg3);
+	return(0);
+}
+
+Saída.:
+padinto$
+df6ewg4$
+rien$
+$
