@@ -6,7 +6,7 @@
 /*   By: vtrevisa <vtrevisa@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/22 22:52:34 by vtrevisa          #+#    #+#             */
-/*   Updated: 2022/04/22 22:52:36 by vtrevisa         ###   ########.fr       */
+/*   Updated: 2022/04/23 00:41:50 by vtrevisa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,5 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 		i++;
 	r1 = s1[i];
 	r2 = s2[i];
-	return (r1 - r2);
+	return ((unsigned char)r1 - (unsigned char)r2);
 }
